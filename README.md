@@ -2,14 +2,15 @@
 
 A Claude Code-assisted workspace for searching, reading, and summarizing academic papers.
 
+This is just a scaffold for a claude code instance. In practice, I'll manually query a claude code instance to collect papers in `search_results/` and explain them to me, or search my notes for potential gaps and add clarifications. The literature review is a conversation with claude code. This repo contains skills to ease the process.
+
+
 ## Features
 
 - **Arxiv search** — query papers by topic, author, or keyword via the arxiv API
 - **Structured search results** — saved as markdown in `search_results/` with consistent formatting
 - **Math rendering** — KaTeX math in markdown via the Markdown Preview Enhanced VS Code extension
 - **Figure extraction** — crop figures from PDFs and embed them in notes
-
-## Usage
 
 All Python tooling uses `uv`.
 
